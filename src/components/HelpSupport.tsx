@@ -31,6 +31,7 @@ export function HelpSupport({ userName, onBack }: HelpSupportProps) {
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+          {/* User Guide */}
           <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
             <div className="flex items-center mb-4">
               <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-cyan-600 rounded-xl flex items-center justify-center mr-4">
@@ -48,6 +49,7 @@ export function HelpSupport({ userName, onBack }: HelpSupportProps) {
             </Button>
           </div>
 
+          {/* Contact Support */}
           <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
             <div className="flex items-center mb-4">
               <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-600 rounded-xl flex items-center justify-center mr-4">
@@ -60,11 +62,14 @@ export function HelpSupport({ userName, onBack }: HelpSupportProps) {
             <p className="text-gray-600 text-sm mb-4">
               Get direct assistance from our CBRE support team.
             </p>
-            <Button variant="outline" className="w-full">
-              Contact Us
-            </Button>
+            <a href="mailto:support@cbre.com">
+              <Button variant="outline" className="w-full">
+                Contact Us
+              </Button>
+            </a>
           </div>
 
+          {/* FAQ */}
           <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
             <div className="flex items-center mb-4">
               <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-600 rounded-xl flex items-center justify-center mr-4">
@@ -82,6 +87,7 @@ export function HelpSupport({ userName, onBack }: HelpSupportProps) {
             </Button>
           </div>
 
+          {/* Emergency Reporting */}
           <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
             <div className="flex items-center mb-4">
               <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-600 rounded-xl flex items-center justify-center mr-4">
@@ -99,8 +105,6 @@ export function HelpSupport({ userName, onBack }: HelpSupportProps) {
             </Button>
           </div>
         </div>
-        
-
       </div>
     </div>
   );
