@@ -62,7 +62,7 @@ export function HelpSupport({ userName, onBack }: HelpSupportProps) {
             <p className="text-gray-600 text-sm mb-4">
               Get direct assistance from our CBRE support team.
             </p>
-            <a href="mailto:support@cbre.com">
+            <a href="mailto:krkannan94@gmail.com">
               <Button variant="outline" className="w-full">
                 Contact Us
               </Button>
