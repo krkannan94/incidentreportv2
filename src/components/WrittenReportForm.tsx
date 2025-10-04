@@ -107,7 +107,7 @@ export function WrittenReportForm({ userName, onBack, onGenerateReport }: Writte
           >
             ← Back
           </Button>
-          <h1 className="text-2xl font-medium text-slate-800 text-center">
+          <h1 className="text-xl font-medium text-slate-800 text-center">
             Incident Report Form
           </h1>
           <div className="w-20"></div>
